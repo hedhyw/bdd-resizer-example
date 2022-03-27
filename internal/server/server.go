@@ -62,7 +62,6 @@ func (s *Server) handleJPEGImage(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	// decode jpeg into image.Image
 	img, err := jpeg.Decode(imgFile)
 	if err != nil {
 		respondErr(w, semerr.NewUnsupportedMediaTypeError(err))
