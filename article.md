@@ -2,7 +2,7 @@
 
 ## Introduction
 
-![TODO-IMAGE](TODO-IMAGE)
+![Gophers](https://raw.githubusercontent.com/hedhyw/gherkingen/main/assets/gophers-bdd-by-hedhyw.svg)
 
 The article will introduce a generation of BDD tests using [gherkingen](https://github.com/hedhyw/gherkingen#gherkingen) for Golang.
 
